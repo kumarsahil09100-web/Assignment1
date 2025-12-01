@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    text-align:center;
+
+}
+p{
+    font-size :20px;
+    color :green;
+    text-align :center;
+}
+body{
+    background-color: gray;
+}
+h2{
+    color :red;
+    text-align :center;
+}

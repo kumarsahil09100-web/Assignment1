@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         body {
+            display :flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center ;
+            background-color: #cd2222; 
+        }
+        .container  {
+            font-family: Arial,sans-serif;
+            margin: 20px;
+            background-color: #f4f4;;
+            /* padding :10px; */
+            border : 1px solid #eeecec;
+        }
+        .box{
+            background-color: #a5acb3;
+            color :white;
+            padding: 20px;
+            margin :10px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 5px;
+
+
+        }
+        .box1 {flex: 1 1 200px; background-color: #a64835;}
+        .box2 {flex: 2 1 200px; background-color: #4caf50;}
+        .box3 {flex: 1 2 200px; background-color: #009688;}
+        .box4 {flex: 3 1 200px; background-color: #673ab7;}
+        .box5 {flex: 1 3 200px; background-color: #e91e63;}     
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FLEXIBLE LAYOUT PLAYGROUND</h1>
+    <div class="container"></div>
+        <div class ="box box1">Box 1</div>
+        <div class ="box box2">Box2</div>
+        <div class ="box box3">Box 3</div>
+    <div class ="box box4">Box 4</div>
+    <div class ="box box5">Box 5</div>
+</body>
+</html>
