@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+           
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f5f4f4;
+            margin:0;
+            padding :0;
+            background: url(https://wallpapercave.com/wp/wp7571042.png);
+            background-size: cover;
+        background-repeat: no-repeat;
+        }
+        
+        .head{
+            text-align: center;
+            padding: 20px;
+            color: #f4f1f1;
+            background-color: rgb(12, 12, 12);
+            
+            
+           
+        }
+        .grid{
+            display: grid ;
+            align-items: center;
+            justify-content: center;
+            gap:20px;
+            padding: 20px;
+            background-size: auto;
+        
+            margin:auto-fit;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+        }
+        .item1{
+            transform:scale(1-5);
+            box-shadow:  0 0 10px rgba(17, 15, 15, 0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background: url(https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            text-align: left;
+            align-items: center;
+            border-color: #333;
+            transition: transform 0.3s ease;
+            button : hover;
+        
+            
+        }
+        .item1 img{
+            width:250px;
+            height:200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .item1 h3{
+            margin: 15px 0 10px;
+            font-size: 20;
+            color: #0f0f10;
+            font-weight: 1500;
+        }
+        .item1 p{
+            font-size: 14px;
+            color: #282727;
+            font-style: italic;
+        }
+.item1 h1{font-size: 25px;
+    color: green;
+    font-weight: 1200;
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+#preprice{
+    color: red;
+    padding: 20px;
+    
+}
+.item1 a{
+    display: inline block;
+    padding: 10px 25px;
+    margin-top: 10px;
+    background: blue;
+    border-radius: 20px;
+    color:white ;
+    width: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+@media(max-width:600px){
+    .item1 img{
+        height:150px;
+    }
+    .item1 h3{
+        font-size: 16px;
+    }
+    .item1 p{
+        font-size: 12px;
+    }
+}
+
+    </style>
+</head>
+<body class="body">
+    
+    <h1 class="head">Best Selling Items</h1>
+    <div class="grid">
+        <div  class="item1">
+          <img src="laptop.jpeg" alt="laptop image" width="200px" height="200px">
+          <h3 >HP 255 G10 Laptop(16GB RAM, 512GB SSD,Ryzen 3)</h3>
+          <p >A fast and raliable laptop ideal for daily work,browsing and multitasking.</p>
+          <h1 >₹999<s id="preprice">₹4100</s></h1>
+        <a href="#">Buy Now</a>
+        </div>
+        <div class="item1">
+            <img src="iphone.png.jpeg" alt="iphone image" width="200px"  height ="200px">
+            <h3 >Apple iphone 15(128GB)-Green</h3>
+            <p > Experience smooth performance,stnning photos,and an advanced A 16 chip</p>
+            <h1 >₹1499<s id="preprice">₹5400</s></h1>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="item1">
+            <img src="microwave.jpeg" alt="micro wave" width="200px"height=200px>
+            <h3 > LG 28 L Convection Microwave Oven</h3>
+            <p >perfect for banking grilling and quick heating with a large 28L capacity.</p>
+            <h1 >₹999<s id="preprice">₹4100</s></h1>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="item1">
+            <img src="airpodes.jpeg" alt="airpodes image" width="200px" height="200px">
+            <h3 >boAt Nirvana Zenith pro (2025)</h3>
+            <p >premium wireless earbuds with clear sound and long-lasting battery life.</p>
+            <h1 >₹1999 <s id="preprice"> ₹5400</s></h1>
+            <a href="#">Buy Now</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
