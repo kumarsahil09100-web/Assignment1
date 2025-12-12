@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+    
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 500px;
+    width :1000px;
+    border:solid ;
+    border-color:black;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.Details1 {
+    background-color: white;
+    border: 2px solid #20e88b;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-color: rgb(28, 79, 234);
+}
+.logo1, .logo2, .logo3{
+    width: 80px;
+    height: 80px;
+    background-color: #2e4ed1;
+    color: white;
+    font-size: 36px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
