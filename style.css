@@ -1,0 +1,360 @@
+.body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f5f4f4;
+    margin:0;
+    padding :0;
+    background:url(https://wallpapercave.com/wp/wp7571042.png);
+    background-size: cover;
+background-repeat: no-repeat;
+    
+
+
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 20px;
+    background-color: rgb(246, 25, 25);
+    height: 30px;
+}
+.head1 button{
+   background-color: rgb(22, 198, 221);
+    align-items: left;
+    justify-content: left;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.head1 a{
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+button:hover{
+    background-color: rgb(35, 19, 213);
+    cursor: pointer;
+    transform: scale(1, 1);
+}
+.my{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+}
+.details{
+    font-size: 40px;
+    margin-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 0vmax;
+    color: white;
+}
+.details span{
+    color: rgba(13, 13, 13, 0.929);
+    font-weight: bold;
+}
+.details2{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    color: white;
+    
+    
+}
+
+.details3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.details3 button{
+    background-color: rgb(69, 141, 199);
+    border: none;
+   
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.details3 h3{
+    
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+} 
+.pic{ 
+    width: 150px;;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+    position: absolute;
+    right: 10px;
+ 
+    object-fit: cover;
+}
+#about{
+    font-size: 70px;
+    text-align: left;
+    text-align: center;
+    padding-top: 160px;
+    color: rgba(100, 234, 11, 0.589);
+   
+
+  
+}
+.about1{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+#skills{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 160px;
+    color: rgb(8, 236, 46);
+}
+.skills{
+    text-align: center;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+
+
+.html{
+    background-color: rgb(23, 36, 224);
+    
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    
+   
+}
+.html h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.css{
+    background-color: rgb(239, 11, 11);
+    
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 10px; 
+
+}
+.css h2{
+    text-align: center;
+    font-size: 20px;
+}
+.github{
+    background-color: rgb(83, 20, 231);
+  
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+}
+.github h2{
+    text-align: center;
+    font-size: 20px;
+}
+.javascript{
+    background-color: rgb(13, 224, 59);
+;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+.javascript h2{
+    text-align: center;
+    font-size: 20px;
+}
+#projects{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    color: rgb(156, 236, 8);
+    
+}
+.pro{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(395px, 0fr));
+}
+.project1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding-left: 20px;
+    background-color: rgb(230, 234, 230);
+}
+.project1 h2{
+    text-align: left;
+    font-size: 20px;
+      
+}
+.project1 h3{
+    text-align: left;
+    font-size: 20px; 
+    font-weight: 10;  
+}
+.project2{
+    
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding-left: 20px;
+    background-color: lightblue;
+}
+.project2 h2{
+    text-align: left;
+    font-size: 20px;
+   
+}
+.project2 h3{
+    text-align: left;
+    font-size: 20px; 
+    font-weight: 10;   
+}
+.project3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding-left: 20px;
+    background-color: rgb(230, 234, 230);
+}
+.project3 h2{
+    text-align: left;
+    font-size: 20px;
+    
+   
+}
+.project3 h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 10;   
+}
+#contact{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    color: rgb(8, 236, 46);
+    
+}
+.contactform{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin: auto;
+    height: 500px;
+    background :url(https://tse1.mm.bing.net/th/id/OIP.Sp7hOT3iemgFWOmWTBahuQHaEo?pid=Api&h=220&P=0);
+    border-radius: 20px;
+    
+}
+.label[for="first name"], .label[for="last name"], .label[for="email"], .label[for="message"]{
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    align-content: center;
+    text-align: center;
+    
+}
+.submitbutton{
+    background-color: rgb(22, 198, 221);
+    border: none;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.submitbutton{
+    background-color: rgb(213, 93, 19);
+    cursor: pointer;
+    transform: scale(1. 1);
+    padding: 10px 20px;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+
+}
+.footer{
+    background-color: rgb(173, 220, 247);
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+@madia only screen and (max-width: 600px){
+    .head1{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .pro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic{
+        position: static;
+        width: 80px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    .details{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .details2{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .project1, .project2, .project3{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+}
+
+
